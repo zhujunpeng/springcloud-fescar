@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: storage-service
+server:
+  port: 18082
+mysql:
+  server:
+    port: 3306
+    ip: 127.0.0.1
+  user:
+    password: root
+    name: root
+  db:
+    name: fescar_demo
+eureka:
+  instance:
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

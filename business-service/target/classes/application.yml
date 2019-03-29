@@ -1,0 +1,21 @@
+server:
+  port: 18081
+spring:
+  application:
+    name: business-service
+# The following configuration can be omitted.
+
+#feign.hystrix.enabled=true
+#feign.sentinel.enabled=true
+
+eureka:
+  instance:
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+logging:
+  level:
+    com.alibaba.fescar: debug
