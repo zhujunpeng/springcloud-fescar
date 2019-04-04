@@ -85,7 +85,7 @@
     <orderEntry type="library" name="Maven: com.thoughtworks.xstream:xstream:1.4.10" level="project" />
     <orderEntry type="library" name="Maven: xmlpull:xmlpull:1.1.3.1" level="project" />
     <orderEntry type="library" name="Maven: xpp3:xpp3_min:1.1.4c" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-alibaba-fescar:0.2.2.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-alibaba-fescar:2.1.0.BUILD-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba.fescar:fescar-spring:0.4.0" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba.fescar:fescar-tm:0.4.0" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba.fescar:fescar-core:0.4.0" level="project" />
