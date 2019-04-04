@@ -1,5 +1,17 @@
+# springcloud-fescar
+springcloud+Mybatis+fescar集成
 # Fescar Example
 
+```
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-alibaba-fescar</artifactId>
+    <version>0.2.2.BUILD-SNAPSHOT</version>
+</dependency>
+```        
+这个依赖为alibaba-spring官方依赖，传送门：[spring-cloud-alibaba-fescar](https://github.com/spring-cloud-incubator/spring-cloud-alibaba/tree/master/spring-cloud-alibaba-fescar)
+
+后面的就是官方的说明了。。。
 ## 项目说明
 
 
