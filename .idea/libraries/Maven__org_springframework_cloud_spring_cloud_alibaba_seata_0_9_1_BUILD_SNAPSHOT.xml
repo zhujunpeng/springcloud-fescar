@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.springframework.cloud:spring-cloud-alibaba-seata:0.9.1.BUILD-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-seata/0.9.1.BUILD-SNAPSHOT/spring-cloud-alibaba-seata-0.9.1.BUILD-20190605.050207-398.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-seata/0.9.1.BUILD-SNAPSHOT/spring-cloud-alibaba-seata-0.9.1.BUILD-20190605.050207-398-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-seata/0.9.1.BUILD-SNAPSHOT/spring-cloud-alibaba-seata-0.9.1.BUILD-20190605.050207-398-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
