@@ -20,8 +20,8 @@ import java.io.IOException;
 import java.sql.SQLException;
 
 import com.alibaba.druid.pool.DruidDataSource;
-import com.alibaba.fescar.rm.datasource.DataSourceProxy;
 
+import io.seata.rm.datasource.DataSourceProxy;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.transaction.jdbc.JdbcTransactionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;

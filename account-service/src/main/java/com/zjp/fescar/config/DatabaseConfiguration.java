@@ -18,6 +18,7 @@ package com.zjp.fescar.config;
 import java.sql.SQLException;
 import java.util.Random;
 
+import io.seata.rm.datasource.DataSourceProxy;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
@@ -27,7 +28,6 @@ import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 import com.alibaba.druid.pool.DruidDataSource;
-import com.alibaba.fescar.rm.datasource.DataSourceProxy;
 
 /**
  * @author zhujunpeng
