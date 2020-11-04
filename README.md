@@ -54,7 +54,7 @@ order服务关键代码如下：
 ```
 ### 3.使用步骤
 - 1.拉取本demo代码 git clone xxxx;
-- 2.[下载seata-server](https://github.com/seata/seata/releases);
+- 2.[下载seata-server](https://github.com/zhujunpeng/springcloud-seata);
 - 3.执行每个项目下的建表语句，resource下xx.sql文件；
 - 4.seata相关建表语句见下文说明；
 
@@ -114,7 +114,7 @@ store {
 ```java
 service {
   #vgroup->rgroup
-  vgroup_mapping.fsp_tx_group = "default"  修改这里，fsp_tx_group这个事务组名称是我自定义的，一定要与client端的这个配置一致！否则会报错！
+  vgroup_mapping.jxb_tx_group = "default"  修改这里，jxb_tx_group这个事务组名称是我自定义的，一定要与client端的这个配置一致！否则会报错！
   #only support single node
   default.grouplist = "127.0.0.1:8091"   此配置作用参考:https://blog.csdn.net/weixin_39800144/article/details/100726116
   #degrade current not support
@@ -198,14 +198,14 @@ spring:
     cloud:
         alibaba:
             seata:
-                tx-service-group: fsp_tx_group  这个fsp_tx_group自定义命名很重要，server，client都要保持一致
+                tx-service-group: jxb_tx_group  这个jxb_tx_group自定义命名很重要，server，client都要保持一致
 ```
 ##### 2.file.conf
 自己新建的项目是没有这个配置文件的，copy过来，修改下面配置：
 ```java
 service {
   #vgroup->rgroup
-  vgroup_mapping.fsp_tx_group = "default"   这个fsp_tx_group自定义命名很重要，server，client都要保持一致
+  vgroup_mapping.jxb_tx_group = "default"   这个jxb_tx_group自定义命名很重要，server，client都要保持一致
   #only support single node
   default.grouplist = "127.0.0.1:8091"
   #degrade current not support

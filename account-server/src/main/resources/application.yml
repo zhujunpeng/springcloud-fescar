@@ -29,6 +29,6 @@ spring:
         tx-service-group: jxb_tx_group
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://rm-wz90hq5u1h0uan8qq9o.mysql.rds.aliyuncs.com:3306/seat-account?useUnicode=true&characterEncoding=utf8&useSSL=true&useSSL=true&useAffectedRows=true
-    username: super_account
-    password: RDSijovo2019!!!
+    url: jdbc:mysql://XXXXXXXXX:3306/seat-account?useUnicode=true&characterEncoding=utf8&useSSL=true&useSSL=true&useAffectedRows=true
+    username: 
+    password: 
